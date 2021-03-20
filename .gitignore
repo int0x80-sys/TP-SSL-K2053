@@ -1,0 +1,23 @@
+.vs*
+
+#Project files and folders
+*bin
+*obj
+compile*
+execute*
+
+#Makefiles ignore
+*Makefile
+
+#Codeblocks files ignore
+*.workspace
+*.layout
+*.cbp
+*.depend
+
+#Ignore output files by flex and bison
+scanner.[ch]
+parser.[ch]
+
+#Ignore verbos bison logs:
+*.output
